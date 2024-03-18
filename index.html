@@ -3,64 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Name</title>
+    <title>Trevor Lammers Portfolio</title>
     <style>
-        /* Basic styling, feel free to modify */
-        body {
-            font-family: Arial, sans-serif;
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
+        
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            line-height: 1.6;
+        }
+        
+        /* Header styles */
         header {
             background-color: #333;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        /* Navigation styles */
         nav {
             background-color: #444;
             color: #fff;
             padding: 10px;
             text-align: center;
         }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        nav a:hover {
+            color: #ff4500; /* Change color on hover */
+        }
+        
+        /* Main section styles */
         section {
             padding: 20px;
             text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
         }
+        
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        section p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        
+        /* Footer styles */
         footer {
             background-color: #333;
             color: #fff;
             padding: 10px;
             text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        footer p {
+            font-size: 0.9em;
+        }
+
+        /* Image styles */
+        img {
+            width: 200px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Ensure proper spacing */
+            margin: 0 auto 20px; /* Center horizontally and add some bottom margin */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Your Website</h1>
-        <p>A brief description of your website</p>
+        <h1>Trevor Lammers Portfolio</h1>
+        <p>Welcome to the homepage of my online portfolio.</p>
     </header>
     
     <nav>
         <a href="#">Home</a> |
-        <a href="#">About</a> |
-        <a href="#">Services</a> |
+        <a href="#">Work Experience</a> |
+        <a href="#">Projects</a> |
         <a href="#">Contact</a>
     </nav>
     
     <section>
-        <h2>About Us</h2>
-        <p>Insert your text and photos here to describe your company or organization.</p>
+        <h2>About Me</h2>
+        <img src="HeadshotPurple.jpg" alt="Profile Picture">
+        <p>I am currently a senior at the University of Iowa pursuing a Bachelor's in Business Administration. I am majoring in Business Analytics and Information Systems, partnered with a minor in Sport Recreation management. My graduation date is May 2024 and I have years of experience in project management, data analysis, and event coordination.</p>
     </section>
     
     <section>
-        <h2>Our Services</h2>
-        <p>Insert your text and photos here to showcase your services.</p>
+        <h2>My Portfolio</h2>
+        <p>Click the subpages above to navigate across the portfolio. The subpages provide deeper insight into my work experience, project history, and contact methods.</p>
     </section>
     
     <footer>
-        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+        <p>lammerstrevor@gmail.com - 5152974098</p>
     </footer>
 </body>
 </html>
