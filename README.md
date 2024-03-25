@@ -1,2 +1,2 @@
-# tjlammers_HW8
- Homework 8
+# tjlammers_HW6
+ Homework 6
